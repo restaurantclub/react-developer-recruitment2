@@ -26,13 +26,13 @@ Właściwości elementu
 
 ```json
 {
-    id: "$179",
-    color: "#3230b3",
-    rotation: 254,
-    x: 169,
-    y: 442,
-    width: 144,
-    height: 280
+    "id": "$179",
+    "color": "#3230b3",
+    "rotation": 254,
+    "x": 169,
+    "y": 442,
+    "width": 144,
+    "height": 280
 }
 ```
 
@@ -45,9 +45,9 @@ response:
 
 ```json
 {
-    id: 'string', // unikatowe id projektu
-    name: 'string', //nazwa projektu
-    modified: 1642182762 // timestamp
+    "id": "string", // unikatowe id projektu
+    "name": "string", //nazwa projektu
+    "modified": 1642182762 // timestamp
 }
 ```
 
@@ -58,22 +58,22 @@ response:
 
 ```json
 {
-    id: string, // unikatowe id projektu jak podane w parametr
-    project: {
-        id: string, // j.w.
-        name: string, // nazwa projektu
-        width: number, // szerokosc płotna projektu
-        height: number, // wysokosc płotna projektu
-        items:  // tablica elementów umieszczonych na plotnie
+    "id": "string", // unikatowe id projektu jak podane w parametr
+    "project": {
+        "id": "string", // j.w.
+        "name": "string", // nazwa projektu
+        "width": 10, // szerokosc płotna projektu
+        "height": 10, // wysokosc płotna projektu
+        "items": // tablica elementów umieszczonych na plotnie
         [
             {
-                id: string, // unikatowe id elementu
-                color: string, // color elementu w formacie '#RRGGBB'
-                rotation: number, // kąt obrotu elementu [0°, 360°]
-                x: number, // współrzędna X środka elementu
-                y: number, // współrzędna Y środka elementu
-                width: number, // szerokość elementu (>0)
-                height: number // wysokość elementu (>0)
+                "id": "string", // unikatowe id elementu
+                "color": "string", // color elementu w formacie "#RRGGBB"
+                "rotation": 0, // kąt obrotu elementu [0°, 360°]
+                "x": 10, // współrzędna X środka elementu
+                "y": 20, // współrzędna Y środka elementu
+                "width": 100, // szerokość elementu (>0)
+                "height": 200 // wysokość elementu (>0)
             }
         ]
     }
