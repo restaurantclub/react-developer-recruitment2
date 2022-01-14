@@ -62,8 +62,8 @@ response:
     "project": {
         "id": "string", // j.w.
         "name": "string", // nazwa projektu
-        "width": 10, // szerokosc płotna projektu
-        "height": 10, // wysokosc płotna projektu
+        "width": 10, // szerokosc płótna projektu
+        "height": 10, // wysokosc płótna projektu
         "items": // tablica elementów umieszczonych na plotnie
         [
             {
