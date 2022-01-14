@@ -95,7 +95,7 @@ Opcjonalne:
 
 Projekty które zawsze powodują błąd:  
 
-ID `cklzhx7e80001py9kcql231z3-4748779261984095daje` błąd `500` serwera  
+ID `cklzhx7e80001py9kcql231z3-4748779261984095` daje  błąd `500` serwera  
 ID `cklziyda30000m19k92zfao28-9430719080200028` daje błąd `404` serwera  
 ID `cklzjw3mn0001cq9k3mvy3fvf-7941218198815694` zwraca błędne dane
 
