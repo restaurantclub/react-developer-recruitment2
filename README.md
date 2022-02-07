@@ -38,6 +38,9 @@ Właściwości elementu
 
 ### API
 
+Base URL: https://recruitment01.vercel.app/api/
+
+
 > `/init` zwraca podstawowe informację dla projektu  
 
 paremetry: `none`  
